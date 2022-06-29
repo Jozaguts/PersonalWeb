@@ -1,15 +1,6 @@
 <template>
   <q-layout view="hhh Lpr fff">
-    <q-header class="bg-primary text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
-          </q-avatar>
-          Title
-        </q-toolbar-title>
-      </q-toolbar>
-    </q-header>
+    <HeaderComponent />
 
     <q-page-container>
       <router-view />
@@ -19,8 +10,9 @@
 
 <script lang="ts" setup>
 import { ref } from "vue";
+import HeaderComponent from '../components/header.vue'
 
-const leftDrawerOpen = ref(false);
+const leftDrawerOpen = ref(true);
 
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;

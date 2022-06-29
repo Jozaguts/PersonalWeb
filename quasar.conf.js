@@ -29,8 +29,8 @@ module.exports = configure(function (ctx) {
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
       // 'ionicons-v4',
-      // 'mdi-v5',
-      // 'fontawesome-v5',
+      'mdi-v5',
+      'fontawesome-v5',
       // 'eva-icons',
       // 'themify',
       // 'line-awesome',
@@ -140,13 +140,13 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Personal Web`,
-        short_name: `Personal Web`,
+        name: `Jozaguts`,
+        short_name: `jozaguts`,
         description: `Portfolio...`,
         display: "standalone",
         orientation: "portrait",
         background_color: "#ffffff",
-        theme_color: "#027be3",
+        theme_color: "#054376",
         icons: [
           {
             src: "icons/icon-128x128.png",
