@@ -1,36 +1,13 @@
 <script setup lang="ts">
 import BrandComponent from './header/brand.vue'
+import SocialMediaIcons from './header/social-media-icons.vue'
 </script>
 <template>
   <q-header class="text-white q-px-lg q-pt-sm" style="height: 20vh">
     <q-toolbar>
       <BrandComponent/>
       <q-space></q-space>
-     <div>
-       <q-btn
-         round unelevated class="mx-sm"
-         href="https://twitter.com/jozaguts"
-         target="_blank"
-       >
-        <q-icon name="mdi-twitter" size="2rem"></q-icon>
-       </q-btn>
-       <q-btn round unelevated class="mx-sm">
-         <q-icon name="mdi-github" size="2rem"></q-icon>
-       </q-btn>
-       <q-btn round unelevated class="mx-sm">
-         <q-icon name="mdi-linkedin" size="2rem"></q-icon>
-       </q-btn>
-       <q-btn round unelevated class="mx-sm">
-         <q-icon name="mdi-facebook" size="2rem"></q-icon>
-       </q-btn>
-       <q-btn round unelevated class="mx-sm">
-         <q-icon name="mdi-email" size="2rem"></q-icon>
-       </q-btn>
-
-
-
-     </div>
-
+      <SocialMediaIcons />
     </q-toolbar>
     <nav class="absolute-bottom flex justify-center items-baseline">
       <ul class="text-center flex">
