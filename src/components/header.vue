@@ -1,15 +1,10 @@
 <script setup lang="ts">
-
+import BrandComponent from './header/brand.vue'
 </script>
 <template>
   <q-header class="text-white q-px-lg q-pt-sm" style="height: 20vh">
     <q-toolbar>
-      <q-avatar >
-        <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
-      </q-avatar>
-      <q-toolbar-title>
-        <h1 class="text-h5">Jozaguts</h1>
-      </q-toolbar-title>
+      <BrandComponent/>
       <q-space></q-space>
      <div>
        <q-btn
