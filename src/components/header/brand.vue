@@ -1,7 +1,7 @@
 <template>
   <q-toolbar-title
     @click="$router.push('/')"
-    class="flex items-center cursor-pointer">
+    class="flex items-center cursor-pointer ">
     <q-avatar class="q-mr-sm">
       <img
         loading="lazy"
@@ -10,7 +10,7 @@
         src="../../assets/code.png"
       />
     </q-avatar>
-    <h1 class="text-h5">Jozaguts</h1>
+    <h1 class="text-h5 underline-animated">Jozaguts</h1>
   </q-toolbar-title>
 </template>
 
