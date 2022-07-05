@@ -1,7 +1,6 @@
 <template>
   <q-layout view="hhh Lpr fff">
     <HeaderComponent />
-
     <q-page-container>
       <router-view />
     </q-page-container>
@@ -10,7 +9,7 @@
 
 <script lang="ts" setup>
 import { ref } from "vue";
-import HeaderComponent from '../components/header.vue'
+import HeaderComponent from '../components/header/index.vue'
 
 const leftDrawerOpen = ref(true);
 
