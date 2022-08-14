@@ -1,16 +1,13 @@
 <script setup lang="ts">
-import BrandComponent from './brand.vue'
-import SocialMediaIcons from './social-media-icons.vue'
-import NavBar from './nav-bar.vue'
+import BrandComponent from './brand-component.vue';
+import NavBar from './nav-bar.vue';
 </script>
 <template>
-  <q-header class="text-white q-px-lg q-pt-sm" style="height: 20vh">
+  <q-header class="text-white q-px-lg q-pt-sm">
     <q-toolbar>
-      <BrandComponent/>
-      <q-space></q-space>
-      <SocialMediaIcons />
+      <BrandComponent />
     </q-toolbar>
-    <nav-bar />
+    <NavBar />
   </q-header>
 </template>
 <style scoped lang="sass">

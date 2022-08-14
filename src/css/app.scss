@@ -3,7 +3,6 @@
   text-decoration: none;
   cursor: pointer;
   position: relative;
-
 }
 .underline-animated::before {
   content: "";
@@ -16,9 +15,15 @@
   left: 0;
   transform-origin: right;
   transform: scaleX(0);
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
-.underline-animated:hover::before{
+.underline-animated:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+}
+.q-page {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
 }

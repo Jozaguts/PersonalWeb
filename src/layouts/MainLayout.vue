@@ -8,12 +8,12 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
-import HeaderComponent from '../components/header/index.vue'
+// import { ref } from "vue";
+import HeaderComponent from 'components/header/index-component.vue';
 
-const leftDrawerOpen = ref(true);
+// const leftDrawerOpen = ref(true);
 
-function toggleLeftDrawer() {
-  leftDrawerOpen.value = !leftDrawerOpen.value;
-}
+// function toggleLeftDrawer() {
+//   leftDrawerOpen.value = !leftDrawerOpen.value;
+// }
 </script>
