@@ -1,5 +1,5 @@
 <template>
-  <nav class="q-mx-xs-auto q-mx-md-none">
+  <nav class="q-mx-xs-auto q-mx-md-none q-ml-md-auto">
     <ul class="flex ">
       <li v-for="link in links" :key="link.text"  class="q-mx-lg">
         <router-link :to="link.to"
