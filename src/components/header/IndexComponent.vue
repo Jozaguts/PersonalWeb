@@ -1,13 +1,27 @@
 <script setup lang="ts">
-import BrandComponent from './BrandComponent.vue';
 import NavBar from './NavbarComponent.vue';
+import SocialMediaIcons from './SocialMediaIconsComponent.vue';
 </script>
 <template>
-  <q-header class="text-white q-px-lg q-pt-sm">
-    <q-toolbar>
-      <BrandComponent />
+  <q-header class="text-white q-px-md-lg q-pt-sm">
+    <q-toolbar class="wrap-xs">
+      <q-avatar>
+        <img
+          loading="lazy"
+          width="50"
+          alt="jozaguts.dev logo"
+          src="~/assets/code.png"
+        />
+      </q-avatar>
+      <q-toolbar-title
+        shrink
+        @click="$router.push('/')"
+        class="flex items-center cursor-pointer">
+        <h5 class="underline-animated">Jozaguts</h5>
+      </q-toolbar-title>
+      <SocialMediaIcons/>
+      <NavBar />
     </q-toolbar>
-    <NavBar />
   </q-header>
 </template>
 <style scoped lang="sass">

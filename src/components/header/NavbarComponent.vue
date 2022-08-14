@@ -1,21 +1,18 @@
 <template>
-  <nav class="absolute-bottom flex justify-center items-baseline">
-    <ul class="text-center flex">
-      <li v-for="link in links" :key="link.text" class="q-ml-sm">
-        <router-link :to="link.to" :class="link.class">
+  <nav class="q-mx-xs-auto q-mx-md-none">
+    <ul class="flex ">
+      <li v-for="link in links" :key="link.text"  class="q-mx-lg">
+        <router-link :to="link.to"
+                     active-class="active-class"
+                     :class="link.class"
+                     class="text-weight-bold"
+        >
           {{ link.text }}
         </router-link>
       </li>
     </ul>
   </nav>
 </template>
-
 <script lang="ts" setup>
 import { links } from 'src/components/interfaces';
 </script>
-
-<style scoped lang="sass">
-ul
-  list-style: none
-  padding: 0
-</style>
