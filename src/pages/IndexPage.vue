@@ -3,7 +3,7 @@
     <div class="row justify-center">
       <div class="col-11 col-sm-12 col-lg-9">
         <div class="row">
-          <div class="col-7">
+          <div class="col-8 q-pr-lg q-pb-lg">
             <q-img src="https://via.placeholder.com/700x400" fit="cover">
               <div class="row fit">
                 <div class="col-12">
@@ -21,12 +21,13 @@
               </div>
             </q-img>
           </div>
-          <div class="col-5">
+          <div class="col-4">
             <div class="row">
               <div class="col-12">
-                <div class="text-center">
-                  <strong class="text-uppercase">destacados</strong>
-                  <q-separator size="3px" inset color="secondary"/>
+                <div class="text-center relative-position q-mb-sm">
+                  <strong class="text-uppercase separator">
+                    destacados
+                  </strong>
                 </div>
               </div>
             </div>
