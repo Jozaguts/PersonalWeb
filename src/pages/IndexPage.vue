@@ -33,8 +33,23 @@
             </div>
             <div class="row">
               <div class="col-12">
-                <div class="q-pa-xl">
-                  <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquid autem cumque earum exercitationem recusandae similique temporibus voluptatem. Deleniti dolore dolores eveniet incidunt laudantium neque odit similique voluptatum? Dignissimos?</p>
+                <div class="note-container">
+                  <p class="q-ma-none ellipsis-2-lines"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum excepturi fugiat maiores nam nobis qui. </p>
+                  <div class="q-py-sm"> <small class="q-mr-md text-weight-bold">categoria</small> <small class="text-secondary">fecha</small></div>
+                  <q-separator />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="note-container">
+                  <p class="q-ma-none ellipsis-2-lines"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum excepturi fugiat maiores nam nobis qui. </p>
+                  <div class="q-py-sm"> <small class="q-mr-md text-weight-bold">categoria</small> <small class="text-secondary">fecha</small></div>
+                  <q-separator />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="note-container">
+                  <p class="q-ma-none ellipsis-2-lines"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum excepturi fugiat maiores nam nobis qui. </p>
+                  <div class="q-py-sm"> <small class="q-mr-md text-weight-bold">categoria</small> <small class="text-secondary">fecha</small></div>
                 </div>
               </div>
             </div>
